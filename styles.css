@@ -2084,8 +2084,8 @@ a.context-streamer:hover {
 .analyse {
     position: relative !important;
     justify-content: center !important;
-    grid-template-columns: minmax(230px, 20vw) 2vmin minmax(calc(70vmin * var(--board-scale)), calc(100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem)) 80px minmax(240px, 400px) !important;
-    margin-left: 40px !important;
+    grid-template-columns: minmax(230px, 20vw) 2vmin minmax(calc(70vmin * var(--board-scale)), calc(100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem)) 25px minmax(240px, 400px) !important;
+    margin-left: 20px !important;
     transition: margin-left .3s ease-in-out !important;
 }
 
@@ -2202,8 +2202,8 @@ a.context-streamer:hover {
 }
 
 .eval-gauge {
-    width: calc(100% - 20px) !important;
-    margin-left: 10px !important;
+    width: 15px !important;
+    margin-left: 5px !important;
     background: none !important;
     border-radius: 4px !important;
     overflow: hidden !important;
@@ -2235,7 +2235,7 @@ a.context-streamer:hover {
 }
 
 .eval-gauge tick {
-    border-bottom: 0 !important;
+    border-bottom: 2px solid var(--tertiaryColor) !important;
 }
 
 .eval-gauge tick.zero {
