@@ -1622,7 +1622,7 @@ button.rematch-decline::before {
 }
 
 .tview2-column>interrupt>comment {
-    padding: 10px 14px !important;
+    padding: 2px 4px !important;
 }
 
 .puzzle__side {
