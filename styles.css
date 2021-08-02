@@ -77,11 +77,12 @@ html {
     --arrowSecondary: #E8A43F !important;
     --arrowTertiary: #EF4747 !important;
     --arrowAlternate: #4B81E6 !important;
-    --lastMove: #99d69e !important;
+    --lastMove: #CAE5B4 !important;
     --preMove: #1B7CC7 !important;
     --moveIndicator: #389840 !important;
     --boardDark: #90AFB8 !important;
-    --boardLight: #C1D3DA !important;
+    --boardLight: #C4D4DA !important;
+ /* --boardLight: #C1D3DA !important; */
     --coordDark: var(--boardDark) !important;
     --coordLight: var(--boardLight) !important;
     --borderRadius: 4px !important;
@@ -2085,7 +2086,7 @@ a.context-streamer:hover {
     position: relative !important;
     justify-content: center !important;
     grid-template-columns: minmax(230px, 20vw) 2vmin minmax(calc(70vmin * var(--board-scale)), calc(100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem)) 25px minmax(240px, 400px) !important;
-    margin-left: 20px !important;
+    margin-left: 0px !important;
     transition: margin-left .3s ease-in-out !important;
 }
 
