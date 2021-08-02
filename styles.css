@@ -2123,7 +2123,7 @@ a.context-streamer:hover {
 .analyse__tools,
 .analyse__controls {
     position: relative !important;
-    left: calc(-80px + 1vmin) !important;
+    left: 0px !important;
     transition: left .3s ease-in-out !important;
 }
 
