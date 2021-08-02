@@ -685,7 +685,7 @@ nav section a {
 nav section a:hover {
     border-left: none !important;
     background: var(--surfaceColor) !important;
-    padding: 0px 20px !important;
+    padding: 0px 10px !important;
     border-radius: var(--borderRadius) !important;
 }
 
