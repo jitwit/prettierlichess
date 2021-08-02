@@ -80,8 +80,8 @@ html {
     --lastMove: #99d69e !important;
     --preMove: #1B7CC7 !important;
     --moveIndicator: #389840 !important;
-    --boardDark: #71828F !important;
-    --boardLight: #c7c7c7 !important;
+    --boardDark: #90AFB8 !important;
+    --boardLight: #C1D3DA !important;
     --coordDark: var(--boardDark) !important;
     --coordLight: var(--boardLight) !important;
     --borderRadius: 4px !important;
@@ -2296,7 +2296,7 @@ a.context-streamer:hover {
 }
 
 .explorer-box td {
-    padding: 10px !important;
+    padding: 5px !important;
 }
 
 .explorer-box tr:nth-child(even) {
