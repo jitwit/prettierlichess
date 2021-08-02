@@ -1597,7 +1597,7 @@ button.rematch-decline::before {
 .tview2-column>index {
     background: var(--surfaceColor) !important;
     color: var(--defaultWhite) !important;
-    line-height: 40px !important;
+    line-height: 25px !important;
     border-right: 1px solid var(--backgroundColor) !important;
 }
 
@@ -2296,7 +2296,7 @@ a.context-streamer:hover {
 }
 
 .explorer-box td {
-    padding: 5px !important;
+    padding: 3px !important;
 }
 
 .explorer-box tr:nth-child(even) {
