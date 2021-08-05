@@ -71,7 +71,7 @@ html {
     --secondaryColor: #f5c276 !important;
     --tertiaryColor: #d36d6d !important;
     --defaultWhite: #F2F5F3 !important;
-    --textColor: #AAAAAA !important;
+    --textColor: #DBDBDB !important;
     --main-shadow: 0 4px 76px -15px rgba(0, 0, 0, 0.5) !important;
     --arrowPrimary: #68C07B !important;
     --arrowSecondary: #E8A43F !important;
@@ -965,10 +965,14 @@ signal>i {
 
 main.lobby {
     grid-template-areas:
-        'app tv tv side'
-        'leader puzzle puzzle winner'
-        'tours tours forum forum'
-        'support table table blog'
+	'side app table tours'
+	'blog leader table tours'
+	'support winner forum forum'
+	'tv puzzle puzzle tv'
+        /* 'app tv tv side' */
+        /* 'leader puzzle puzzle winner' */
+        /* 'tours tours forum forum' */
+        /* 'support table table blog' */
         '. simuls simuls .'
         '. about about .' !important;
     grid-template-columns: minmax(400px, 1fr) 1fr 1fr minmax(400px, 1fr) !important;
@@ -1009,6 +1013,7 @@ main.lobby {
 
 .lobby__side {
     overflow: auto !important;
+    min-height: 400px;
 }
 
 .lobby__app.lobby__app-real_time {
@@ -1119,7 +1124,7 @@ main.lobby {
 
 .tour-spotlight {
     background: var(--surfaceColor) !important;
-    padding: 10px !important;
+    padding: 3px !important;
 }
 
 .tour-spotlight:hover {
@@ -1127,7 +1132,7 @@ main.lobby {
 }
 
 .entry {
-    padding: 0 10px !important;
+    padding: 0px 5px !important;
 }
 
 .timeline {
@@ -1164,7 +1169,7 @@ main.lobby {
 .lobby__streams .stream {
     display: flex !important;
     flex-direction: column !important;
-    padding: 20px 20px !important;
+    padding: 2px 2px !important;
     transition: background .2s ease-in-out !important;
     text-overflow: ellipsis !important;
     margin: 0 !important;
@@ -1298,7 +1303,7 @@ main.lobby {
 
 #nb_games_in_play strong,
 #nb_connected_players strong {
-    font-size: 3vw !important;
+    font-size: 1.5vw !important;
     color: var(--defaultWhite) !important;
 }
 
@@ -2570,7 +2575,7 @@ a.analyse {
 }
 
 .analyse__clock.top {
-    top: -15px !important;
+    top: -20px !important;
 }
 
 .study__player .result {
@@ -3829,7 +3834,7 @@ group.radio div:last-child label {
     }
 
     .lobby__app {
-        min-height: 70vh !important;
+        min-height: 90vh !important;
     }
 
     div.lobby__app__content.lpools {
